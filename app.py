@@ -66,7 +66,7 @@ header = dbc.Row(
         dbc.Col(
             html.Div(
                 [
-                    html.H1("Amazon Diwali Sales 2025", className="display-4"),
+                    html.H1("Amazon India Sales 2025", className="display-4"),
                     html.P(
                         "Performance & Sentiment Analytics Dashboard", className="lead"
                     ),
@@ -525,4 +525,10 @@ def update_charts(_):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    import dotenv
+    import os
+
+    dotenv.load_dotenv(".env")
+    debug_mode = os.getenv("DEBUG", "False") == "True"
+    print(f"Starting app with debug={debug_mode}")
+    app.run(debug=debug_mode)
