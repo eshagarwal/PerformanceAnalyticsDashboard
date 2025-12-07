@@ -43,3 +43,9 @@ Uses the Amazon Product Sales 2025 dataset from Kaggle (anandshaw2001/amazon-pro
 - Pandas for data processing
 - VADER for sentiment analysis
 - Bootstrap (Flatly theme) for styling
+
+
+## Video Demo
+
+https://github.com/user-attachments/assets/6612a49c-ed6f-4983-a228-4be369f7252f
+
