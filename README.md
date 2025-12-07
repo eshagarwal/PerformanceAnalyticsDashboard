@@ -2,7 +2,7 @@
 
 A interactive analytics dashboard for visualizing Amazon sales data during Diwali 2025.
 
-## Demo Link -> <https://28ff7ed7-4257-4098-9cb2-bf156c235b54.plotly.app/>
+<!-- ## Demo Link -> <https://28ff7ed7-4257-4098-9cb2-bf156c235b54.plotly.app/> -->
 
 ## Features
 
@@ -28,7 +28,7 @@ uv sync
 Run the dashboard:
 
 ```bash
-uv run app.py
+uv run app/app.py
 ```
 
 Open your browser to `http://127.0.0.1:8050`
