@@ -46,7 +46,7 @@ df["Sentiment_Class"] = df["Review_Text"].apply(classify_sentiment)
 # =============================================================================
 # 2. APP SETUP & THEME
 # =============================================================================
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
+app: dash.Dash = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 server = app.server
 
 colors = {
