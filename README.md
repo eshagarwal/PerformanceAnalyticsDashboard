@@ -17,7 +17,7 @@ A interactive analytics dashboard for visualizing Amazon sales data during Diwal
 ## Installation
 
 1. Clone the repository
-2. Install dependencies using uv
+2. Install dependencies using [uv](https://docs.astral.sh/uv/getting-started/installation/)
 
 ```bash
 uv sync
