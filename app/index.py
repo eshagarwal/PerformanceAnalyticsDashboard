@@ -1,4 +1,23 @@
-from app import app
+from dash import (
+    Dash,
+    page_container,
+    dcc,
+    clientside_callback,
+    ClientsideFunction,
+    Output,
+    Input,
+)
+from app import app as my_app
 
-if __name__ == "__main__":
-    app.run(port=8080, dev_tools_ui=False, debug=False, host="127.0.0.1")
+
+class MainApplication:
+    def __init__(self):
+        self.__app = my_app
+
+    @property
+    def app(self):
+        return self.__app
+
+
+Application = MainApplication()
+app = Application.app.server
